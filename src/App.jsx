@@ -10,14 +10,14 @@ function App() {
     <Router>
       <header style={{ padding: "20px", textAlign: "center" }}>
         <Link to="/" style={{ margin: "0 10px" }}>Home</Link>
-        <Link to="/about" style={{ margin: "0 10px" }}>About</Link>
-        <Link to="/contact" style={{ margin: "0 10px" }}>Contact</Link>
+        <Link to="/About" style={{ margin: "0 10px" }}>About</Link>
+        <Link to="/Contact" style={{ margin: "0 10px" }}>Contact</Link>
       </header>
 
       <Routes>
         <Route path="/" element={<Home />} />
-        <Route path="/about" element={<About />} />
-        <Route path="/contact" element={<Contact />} />
+        <Route path="/About" element={<About />} />
+        <Route path="/Contact" element={<Contact />} />
       </Routes>
     </Router>
   );
