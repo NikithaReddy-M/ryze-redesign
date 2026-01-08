@@ -1,16 +1,35 @@
-# React + Vite
+Design & Structural Decisions
+This redesign focuses on improving clarity of communication, modern layout, and modularity. The homepage clearly communicates Ryze AI’s value — automated ads management and optimized campaign performance — using a clean hero banner, feature cards, and social proof through testimonials. The site is built with reusable sections such as Header, Hero, Features, Testimonials, Pricing, and Footer to support future updates. It is fully mobile-responsive, accessible, and designed with consistent typography and a professional color scheme to match modern SaaS branding.
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
 
-Currently, two official plugins are available:
+To strengthen the “Clearly communicate what Ryze does” requirement, use actual product messaging like:
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+Hero: “Let AI manage your paid ads 24/7 — optimize Google & Meta campaigns automatically” 
+Ryze AI
 
-## React Compiler
+Features:
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+24/7 real-time optimization
 
-## Expanding the ESLint configuration
+AI-generated creatives
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+Automated budget & keyword management 
+Ryze AI
+
+Testimonials: You can use generic versions or real quotes from the actual site if appropriate. 
+Ryze AI
+
+✅ Summary
+
+Here’s how  project stacks up:
+
+Requirement	Status
+Homepage redesign	✅
+Two inner pages	✅
+Improved layout/colors	✅
+Communicates Ryze value	⚠ (needs real product text)
+Navigation & CTAs	✅
+Mobile-friendly	✅
+Modular structure	✅
+GitHub repo	✅
+Live deployment	✅
