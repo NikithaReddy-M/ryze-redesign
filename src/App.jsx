@@ -1,20 +1,25 @@
-import Header from "./components/Header";
-import Hero from "./components/Hero";
-import Features from "./components/Features";
-import Testimonials from "./components/Testimonials";
-import Pricing from "./components/Pricing";
-import Footer from "./components/Footer";
+// src/App.jsx
+import React from "react";
+import { BrowserRouter as Router, Routes, Route, Link } from "react-router-dom";
+import Home from "./pages/Home"; // homepage component
+import About from "./pages/About";
+import Contact from "./pages/Contact";
 
 function App() {
   return (
-    <div>
-      <Header />
-      <Hero />
-      <Features />
-      <Testimonials />
-      <Pricing />
-      <Footer />
-    </div>
+    <Router>
+      <header style={{ padding: "20px", textAlign: "center" }}>
+        <Link to="/" style={{ margin: "0 10px" }}>Home</Link>
+        <Link to="/about" style={{ margin: "0 10px" }}>About</Link>
+        <Link to="/contact" style={{ margin: "0 10px" }}>Contact</Link>
+      </header>
+
+      <Routes>
+        <Route path="/" element={<Home />} />
+        <Route path="/about" element={<About />} />
+        <Route path="/contact" element={<Contact />} />
+      </Routes>
+    </Router>
   );
 }
 
