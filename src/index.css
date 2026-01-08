@@ -70,6 +70,22 @@ button:hover {
   transform: translateY(-2px);
   box-shadow: 0 14px 25px rgba(99, 102, 241, 0.4);
 }
+section {
+  padding: 100px 40px;
+  text-align: center;
+  background: linear-gradient(135deg, #eef2ff, #fdf2f8);
+}
+
+section h1 {
+  font-size: 44px;
+  color: #1e1b4b;
+}
+
+button {
+  background: linear-gradient(135deg, #6366f1, #8b5cf6);
+  color: white;
+  /* etc… */
+}
 /* Features Section */
 .features {
   padding: 80px 40px;
@@ -113,6 +129,21 @@ button:hover {
   font-size: 15px;
   line-height: 1.6;
 }
+.features {
+  padding: 80px 40px;
+  background-color: #ffffff;
+  text-align: center;
+}
+
+.feature-cards {
+  display: flex;
+  gap: 24px;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+/* etc… */
+
 /* Testimonials Section */
 .testimonials {
   padding: 80px 40px;
@@ -158,6 +189,14 @@ button:hover {
   font-size: 14px;
   color: #6b7280;
 }
+.testimonials {
+  padding: 80px 40px;
+  background: linear-gradient(135deg, #fdf2f8, #eef2ff);
+  text-align: center;
+}
+
+/* etc… */
+
 /* Pricing Section */
 .pricing {
   padding: 90px 40px;
@@ -205,6 +244,13 @@ button:hover {
 .price-card button {
   width: 100%;
 }
+.pricing {
+  padding: 90px 40px;
+  background-color: #ffffff;
+  text-align: center;
+}
+
+/* etc… */
 
 /* Highlighted plan */
 .popular {
@@ -256,6 +302,14 @@ footer p {
   font-size: 14px;
   color: #d1d5db;
 }
+footer {
+  background-color: #1f2937;
+  color: #f9fafb;
+  padding: 40px 20px;
+  text-align: center;
+}
+/* etc… */
+
 /* Mobile Responsiveness */
 @media (max-width: 768px) {
   /* Header */
@@ -340,5 +394,44 @@ div, section, footer {
     display: flex;
     flex-direction: column;
     gap: 8px;
+  }
+}
+/* Header styling */
+.app-header {
+  background-color: #ffffff;      /* white background */
+  padding: 16px 40px;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.app-header .logo {
+  font-size: 24px;
+  font-weight: 700;
+  color: #4f46e5;                 /* purple brand */
+}
+
+.app-header nav a {
+  margin-left: 24px;
+  text-decoration: none;
+  font-weight: 500;
+  color: #374151;
+  transition: color 0.3s;
+}
+
+.app-header nav a:hover {
+  color: #4f46e5;                /* purple on hover */
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+  .app-header {
+    flex-direction: column;
+    gap: 8px;
+  }
+
+  .app-header nav a {
+    margin: 6px 10px;
   }
 }

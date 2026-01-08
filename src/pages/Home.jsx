@@ -1,12 +1,19 @@
 // src/pages/Home.jsx
 import React from "react";
+import Hero from "../components/Hero";
+import Features from "../components/Features";
+import Testimonials from "../components/Testimonials";
+import Pricing from "../components/Pricing";
+import Footer from "../components/Footer";
 
 const Home = () => {
   return (
     <div>
-      <h1 style={{ textAlign: "center", marginTop: "40px" }}>Welcome to Ryze.ai</h1>
-      <p style={{ textAlign: "center" }}>AI-powered solutions for your business</p>
-      {/* Add Hero, Features, Testimonials, Pricing sections here */}
+      <Hero />
+      <Features />
+      <Testimonials />
+      <Pricing />
+      <Footer />
     </div>
   );
 };

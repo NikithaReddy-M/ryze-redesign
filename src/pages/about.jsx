@@ -3,14 +3,10 @@ import React from "react";
 
 const About = () => {
   return (
-    <div style={{ padding: "60px 20px", textAlign: "center" }}>
+    <div style={{ fontFamily: "Arial, sans-serif", padding: "60px 20px", textAlign: "center" }}>
       <h1>About Ryze.ai</h1>
-      <p>
-        Ryze.ai is an AI-powered platform that helps businesses optimize their workflow and increase efficiency.
-      </p>
-      <p>
-        Our mission is to make AI accessible and easy-to-use for everyone.
-      </p>
+      <p>Ryze.ai helps businesses optimize their workflow using AI-powered solutions.</p>
+      <p>Our mission is to make AI simple and accessible for everyone.</p>
     </div>
   );
 };

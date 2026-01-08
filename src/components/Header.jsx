@@ -1,11 +1,11 @@
 function Header() {
   return (
-    <header>
-      <h2>Ryze</h2>
+    <header className="app-header">
+      <div className="logo">Ryze.ai</div>
       <nav>
-        <a href="#">Home</a> |{" "}
-        <a href="#">Features</a> |{" "}
-        <a href="#">Pricing</a>
+        <a href="/">Home</a>
+        <a href="/about">About</a>
+        <a href="/contact">Contact</a>
       </nav>
     </header>
   );
